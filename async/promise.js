@@ -5,6 +5,7 @@
 // State: pending -> fulfilled or rejected
 // Producer vs Consumer
 
+
 // 1. Producer
 // when new Promise is created, the executor runs automatically.
 const promise = new Promise((resolve, reject) => {
